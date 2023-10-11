@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import './App.css'
+import Coins from './components/Coins'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>Hello World</div>
+    <Coins />
   )
 }
 
